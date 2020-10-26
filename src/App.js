@@ -1,16 +1,8 @@
 import React from "react";
-import Navbar from './components/Navbar';
-import Jumbotron from './components/Jumbotron'
-import Card from './components/Card'
+import JSXVariables from "./components/JSXVariables";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Jumbotron />
-      <Card />
-    </>
-  );
+  return <JSXVariables />;
 }
 
 export default App;
